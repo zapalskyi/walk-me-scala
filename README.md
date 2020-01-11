@@ -1,6 +1,6 @@
-##Spark Interview Exercise
+## Spark Interview Exercise
 
-###Prerequisites
+### Prerequisites
 
 Install spark notebook locally.
 For Scala use Zeppelin notebook:
@@ -8,7 +8,7 @@ sudo docker run -p 8080:8080 --rm --name zeppelin apache/zeppelin:0.8.1
 For Python use Jupyter notebook:
 sudo docker run -it --rm -p 8888:8888 jupyter/pyspark-notebook
 
-###Overview
+### Overview
 
 In this exercise, you’re asked to write a job that anonymizes personal data in logs of page views and clicks, and creates a backup
 as two files with all the data de-normalized and sorted by the chronological order of the events. Visitor views a page and then
